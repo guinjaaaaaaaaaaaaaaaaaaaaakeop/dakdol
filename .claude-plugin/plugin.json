@@ -1,0 +1,20 @@
+{
+  "name": "dakdol",
+  "version": "1.0.0",
+  "engines": {
+    "python": ">=3.9"
+  },
+  "roles": {
+    "build": [
+      "python3",
+      "{plugin:dakdol}/build_worker.py",
+      "--request",
+      "{request}",
+      "--response",
+      "{response}",
+      "--host",
+      "{host}"
+    ]
+  },
+  "description": "The implementer of the LLM-development era: the hands. Receives a contract (what to build and the sentences that decide it), builds one slice in a fresh bounded process, runs the project's real checks, and reports what it verified, what it decided beyond the contract, and what it does not claim. It does not decide what comes next."
+}

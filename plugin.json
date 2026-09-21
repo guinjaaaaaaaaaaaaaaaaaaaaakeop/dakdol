@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dakdol",
+  "version": "1.0.0",
+  "engines": {
+    "python": ">=3.9"
+  },
+  "roles": {
+    "build": [
+      "python3",
+      "{plugin:dakdol}/build_worker.py",
+      "--request",
+      "{request}",
+      "--response",
+      "{response}",
+      "--host",
+      "{host}"
+    ]
+  },
+  "description": "The implementer of the LLM-development era: the hands."
+}
