@@ -1,6 +1,6 @@
 {
   "name": "dakdol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "python": ">=3.9"
   },

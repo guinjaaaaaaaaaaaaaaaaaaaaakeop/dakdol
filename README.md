@@ -1,5 +1,7 @@
 # dakdol
 
+> **Retired.** dakdol's one member, the builder, now lives in [hacheong](https://github.com/guinjaaaaaaaaaaaaaaaaaaaaakeop/hacheong) as `hacheong:build` (닥돌), alongside the people who quarrel with the contract, write its tests and try the result. Same request, same answer, same worker interface; a project moves by changing one line in hunsu.json — `"implementer": "dakdol:build"` → `"implementer": "hacheong:build"` — and locking again. This repository stays readable and installable as it was; it will not change.
+
 The implementer of the LLM-development era: the hands. Receives a contract (what to build and the sentences that decide it), builds one slice in a fresh bounded process, runs the project's real checks, and reports what it verified, what it decided beyond the contract, and what it does not claim. It does not decide what comes next.
 
 ## Install
